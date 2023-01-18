@@ -1,0 +1,149 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.top-section {
+    background-image: url("https://uxengineer.com/wp-content/uploads/2015/10/number0002.png");
+    height: 45vh;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+.top-section-info {
+    margin-top: 12vh;
+}
+.info4 {
+    color: rgb(36, 36, 136);
+}
+.info2 {
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.info3 {
+    margin-left: 80px;
+    margin-top: 5px;
+}
+.info5 {
+    margin-left: 80px;
+    margin-top: 5px;
+    width: 150px;
+    height: 40px;
+    background-color: transparent;
+}
+.navlink {
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0 8vw ;
+    
+}
+nav {
+    background-image: url("bodylogo.png");
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+.about-section h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: rgb(76, 76, 116);
+}
+.about-info-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+.about-info {
+    width: 200px;
+    margin: 20px 40px;
+}
+.svgicon {
+    color: green;
+}
+.mypic {
+    display: flex;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 200px;
+    background-color: transparent;
+}
+.about5, .about6 {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+}
+.about5 p {
+    line-height: 20px;
+    width: 350px;
+}
+.about5 h2 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.about6 h1 {
+    margin-bottom: 10px;
+}
+.container {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 10px;
+}
+.skill-1 {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 90%;
+}
+.skill-2 {
+    background-color: rgb(116, 194, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 80%;
+}
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.project1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.project1 img {
+    width: 200px;
+}
+.contacts {
+    height: 250px;
+    background-color: rgb(29, 29, 108);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+}
